@@ -1,0 +1,125 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home {
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 85rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.laptop-img {
+    margin-top: 150px;
+    position: absolute;
+    max-width: 100%;
+    width: 500px;
+    height: 400px;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+}
+
+.home-btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 2rem;
+    position: absolute;
+    
+}
+
+.home-btn:hover {
+    background-color: transparent;
+    border-top: 3px solid orangered;
+    border-bottom: 3px solid orangered;
+    color: orangered;
+    
+}
+
+.btns {
+    display: flex;
+    margin-top: irem;
+}
+
+.btns img {
+    width: 55px;
+    height:55px;
+    margin-left:180px;
+    margin-top: 35px;
+    cursor: pointer;
+    animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.btns img:hover {
+    animation: none;
+}
+
+#home-container {
+    text-align: justify;
+    height: 80vh;
+    width: 900px;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name-text {
+    color: orangered;
+}
+
+.home-para {
+    font-size: 18px;
+    font-weight: 100;
+    max-width: 800px;
+}
+@media (max-width: 750px) {
+    .home-container {
+        font-size: 2rem; /* Adjust font size for even smaller screens */
+    }
+    .btns {
+        margin-top: 0;
+    }
+    .laptop-img {
+        margin-top: 630px;
+        margin-right: 80px;
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:720px) {
+
+    .home-para {
+        max-width: 330px;
+    }
+
+    .laptop-img {
+        display: none;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+}
