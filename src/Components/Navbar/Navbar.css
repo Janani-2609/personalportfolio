@@ -120,7 +120,12 @@ body{
     display: none;
   }
 
-  .linkedin {
-    display: none;
+  .linkedin { 
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  .navbar {
+    height: 7rem;
   }
 }

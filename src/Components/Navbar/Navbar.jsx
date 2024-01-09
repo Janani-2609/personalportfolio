@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="navbar-menu">
                 <Link activeClass='active' to='home-container' spy={true} smooth={true} offset={-100} duration={500} className='navbar-menu-list'>Home</Link>
                 <Link activeClass='active' to='about-container' spy={true} smooth={true} offset={-100} duration={500}className='navbar-menu-list'>About</Link>
-                <Link activeClass='active' to='project-container' spy={true} smooth={true} offset={-90} duration={500}className='navbar-menu-list'>Projects</Link>
+                <Link activeClass='active' to='project-header' spy={true} smooth={true} offset={-90} duration={500}className='navbar-menu-list'>Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}className='navbar-menu-list'>Contact</Link>
             </div>
             <div className="linkedin" onClick={openLinkedInProfile}>
@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className="nav-menu" style={{display: showMenu ? 'flex' : 'none'}}>
                 <Link activeClass='active' to='home-container' spy={true} smooth={true} offset={-100} duration={500} className='menu-list'onClick={() => setShowMenu(false)}>Home</Link>
                 <Link activeClass='active' to='about-container' spy={true} smooth={true} offset={-100} duration={500}className='menu-list' onClick={() => setShowMenu(false)}>About</Link>
-                <Link activeClass='active' to='project-container' spy={true} smooth={true} offset={-90} duration={500}className='menu-list' onClick={() => setShowMenu(false)}>Projects</Link>
+                <Link activeClass='active' to='project-header' spy={true} smooth={true} offset={-90} duration={500}className='menu-list' onClick={() => setShowMenu(false)}>Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}className='menu-list' onClick={() => setShowMenu(false)}>Contact</Link>
             </div>
             </div>

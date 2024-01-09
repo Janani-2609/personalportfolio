@@ -45,3 +45,41 @@
 .project-btn:hover {
     box-shadow: rgba(251, 131, 45, 0.673)  0px 3px 8px;
 }
+
+@media screen and (max-width:850px) {
+    #project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-container {
+        width: 100vw;
+        max-width: 55rem;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+    }
+
+    .projects2{
+        font-size: 18px;
+        background-color: #30406b56;
+        box-shadow: rgba(64, 146, 217, 0.503) 0px 8px 18px;
+        padding: 18px 28px;
+        text-align: justify;
+        max-width: 300px;  
+        margin-left: 12%;
+    } 
+
+    .projects {
+        font-size: 18px;
+        background-color: #30406b56;
+        box-shadow: rgba(64, 146, 217, 0.503) 0px 8px 18px;
+        padding: 18px 28px;
+        text-align: justify;
+        max-width: 300px;
+        margin-left: 12%;
+        margin-bottom: 2%;
+        
+    }
+}
