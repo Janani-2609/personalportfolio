@@ -8,12 +8,9 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    display: flex;
 }
 
-.projects img{
-    width: 220px;
-    height: 120px;
-}
 
 .projects {
     font-size: 18px;
@@ -22,6 +19,17 @@
     padding: 18px 28px;
     text-align: justify;
     max-width: 500px;
+    margin-left: 7%;
+    margin-right: 10%;
+}
+
+.projects2 {
+    font-size: 18px;
+    background-color: #30406b56;
+    box-shadow: rgba(64, 146, 217, 0.503) 0px 8px 18px;
+    padding: 18px 28px;
+    text-align: justify;
+    max-width: 500px;  
 }
 
 .project-btn {
